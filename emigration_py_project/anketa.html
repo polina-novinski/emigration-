@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Анкета</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style1.css">
+	<script>
+		function showForm() {
+		document.getElementById("auth").hidden = false;
+		document.getElementById("link").hidden = true;
+		}
+	</script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><font color="DarkRed" face="fantasy">Русская эмиграция</font></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html"><font face="fantasy">Главная</font></a>
+        </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="statistic.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <font face="fantasy">Статистика</font>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="emigration_py_project/raspred.html">Распределение по Европе</a></li>
+            <li><a class="dropdown-item" href="emigration_py_project/prof.html">Профессиональные категории</a></li>
+            <li><a class="dropdown-item" href="emigration_py_project/brak.html">Брачное положение</a></li>
+              <li><a class="dropdown-item" href="emigration_py_project/come.html">Количество приехавших</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="emigration_py_project/authors.html"> <font face="fantasy">Авторы</font></a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="emigration_py_project/isdania.html"><font face="fantasy"> Издания</font></a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="emigration_py_project/prozes.html"><font face="fantasy"> Лит.процесс</font></a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="emigration_py_project/spisok_lit.html"><font face="fantasy"> Список литературы</font></a>
+        </li>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="emigration_py_project/order.html"><font face="fantasy"> Магазин книг</font></a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link active" href="emigration_py_project/anketa.html"><font face="fantasy"> Зарегистрироваться </font></a>
+        </li>
+		  <li class="nav-item">
+              <a class="nav-link" href="emigration_py_project/form_author.html"><font face="fantasy"> Предложения </font></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="block_decorate">
+    <div class="ven1"><img width="200px" height="70px" src="ven.png"></div>
+    <h1 align="center"><font face="Brush Script MT"> <b> Авторизация на сайте </b></font></h1>
+    <div class="ven"><img width="200px" height="70px" src="ven.png"></div>
+</div>
+<form action="https://www.ya.ru/search?" id="UserEnter" name="UserEnter" target="_blank">
+<p> <input type="hidden" name="q" value="search"></p>
+	<fieldset class="one">
+		<legend align="center"><font face="fantasy" color="DarkRed">Зарегистрироваться:</font></legend>
+		<p><label>Имя </label><input type="text" name="last_name" size="30"></p>
+		<p><label>Фамилия </label><input type="text" name="name" size="30"></p>
+		<p><label>Группа </label><input type="text" name="group" size="30"></p>
+		<p><label>Телефон </label><input type="text" name="tel" size="30"></p>
+		<p><label>Email </label><input type="email" name="email" size="30"></p>
+		<p><label>Логин </label><input type="text" name="user" size="30"></p>
+		<p><label>Пароль </label><input type="password" name="pass" size="30"></p>
+		<p><label>Дата регистрации </label><input type="date" name="date" size="30"></p>
+		<input type="Submit" name="submit" value="Отправить">
+	</fieldset>
+
+</form>
+<form id="auth">
+	<fieldset class="one">
+		<legend align="center"><font face="fantasy" color="DarkRed">Войти:</font></legend>
+		<p><label>Логин: </label><input name="user" required></p>
+		<p><label>Пароль: </label><input name="pass" type="password" required></p>
+		<p><input type="submit" value="Войти"></p>
+	</fieldset>
+</form>
+</body>
+</html> 

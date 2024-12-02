@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "title": "Незамеченное поколение",
+    "author": "В. С. Варшавский",
+    "price": 800,
+    "img": "emigration_py_project/pokol.jpg",
+    "vendor_code": "1"
+  },
+  {
+    "id": "2",
+    "title": "Облегчение участи",
+    "author": "Н. Берберова",
+    "price": 500,
+    "img": "emigration_py_project/obleghenie.jpg",
+    "vendor_code": "2"
+  },
+  {
+    "id": "3",
+    "title": "Куски",
+    "author": "Б. Поплавский",
+    "price": 300,
+    "img": "emigration_py_project/kyski.jpg",
+    "vendor_code": "3"
+  },
+  {
+    "id": "4",
+    "title": "Защитный цвет",
+    "author": "Эльза Триоле",
+    "price": 200,
+    "img": "emigration_py_project/cvet.jpeg",
+    "vendor_code": "4"
+  },
+  {
+    "id": "5",
+    "title": "Распад атома",
+    "author": "Г. Иванов",
+    "price": 500,
+    "img": "emigration_py_project/raspad.jpg",
+    "vendor_code": "5"
+  },
+  {
+    "id": "6",
+    "title": "Вечер у Клэр",
+    "author": "Г. Газданов",
+    "price": 400,
+    "img": "emigration_py_project/vecher.jpg",
+    "vendor_code": "6"
+  },
+  {
+    "id": "7",
+    "title": "Поля Елисейские",
+    "author": "В. Яновский",
+    "price": 600,
+    "img": "emigration_py_project/pol.jpg",
+    "vendor_code": "7"
+  },
+  {
+    "id": "8",
+    "title": "Некрополь",
+    "author": "В. Ходасевич",
+    "price": 800,
+    "img": "emigration_py_project/nekr.jpeg",
+    "vendor_code": "8"
+  },
+  {
+    "id": "9",
+    "title": "Курсив мой",
+    "author": "Н. Берберова",
+    "price": 900,
+    "img": "emigration_py_project/kurs.jpg",
+    "vendor_code": "9"
+  },
+  {
+    "id": "10",
+    "title": "Крысолов",
+    "author": "М. Цветаева",
+    "price": 300,
+    "img": "emigration_py_project/mice.jpg",
+    "vendor_code": "10"
+  },
+  {
+    "id": "11",
+    "title": "Дар",
+    "author": "В. Набоков",
+    "price": 500,
+    "img": "emigration_py_project/dar.jpg",
+    "vendor_code": "11"
+  },
+  {
+    "id": "12",
+    "title": "Ангел смерти",
+    "author": "И. Одоевцева",
+    "price": 300,
+    "img": "emigration_py_project/angel.jpg",
+    "vendor_code": "12"
+  }
+]

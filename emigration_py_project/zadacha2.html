@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>задача 2</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<div class="block_decorate">
+    <div class="ven1"><img width="200px" height="70px" src="ven.png"></div>
+    <h1 align="center"><font face="Brush Script MT"> <b> Решение алгоритмической задачи </b></font></h1>
+    <div class="ven"><img width="200px" height="70px" src="ven.png"></div>
+</div>
+<div class="disc" id="task_content"><font face="fantasy"> <b> Можно ли заполнить емкости?</b></font></div>
+    <div class="desk_z1">
+        <font face="Palatino"> У вас есть 2 емкости: кубическая и цилиндрическая и жидкость
+        объема М. Чтобы проверить, возможно ли заполнить 1) первую емкость, 2) вторую, 3) обе
+        заданным объемом, введите характеристики: </font></div>
+        </div>
+<form action="https://www.ya.ru/search?" class="math2" id="UserEnter" name="UserEnter" target="_blank">
+    <ul>
+        <input type="hidden" name="q" value="search">
+        <p> <input type="hidden" name="formulation" value="Можно ли заполнить емкости? 1, 2, обе? Если принадлежит
+        - отправить все на сервер"></p>
+        <li>Ребро A кубической емкости: <input id="a" name="a"  type="number" value=0 min="0"></li>
+        <li>Высота H цилиндрической емкости: <input id="h" name="h"  type="number" value=0 min="0"></li>
+        <li>Радиус основания R цилиндрической емкости: <input id="r" name="r"  type="number" value=0 min="0"></li>
+        <li>Жидкость объема М: <input id="m" name="m"  type="number" value=0 min="0"></li>
+        <li>Заполнение первой: <input name="result" value="не определен"></li>
+        <li>Заполнение второй: <input name="result2" value="не определен"></li>
+        <li>Заполнение обеих: <input name="result3" value="не определен"></li>
+        <button class="evaluate" id="verify"><font color="DarkRed" face="fantasy">Проверить</font></button>
+        <button class="evaluate" id="send"><font color="DarkRed" face="fantasy">Отправить</font></button>
+    </ul>
+</form>
+<div class="desk_z2">
+    <p id="result"> <font color="DarkRed">Емкость 1:  </font> </p>
+    <p id="result2"><font color="DarkRed">Емкость 2:  </font> </p>
+    <p id="result3"><font color="DarkRed">Емкость 3:  </font> </p>
+    </div>
+<script src="second.js"></script>
+</body>
