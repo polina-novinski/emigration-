@@ -4,7 +4,7 @@
     "title": "Незамеченное поколение",
     "author": "В. С. Варшавский",
     "price": 800,
-    "img": "emigration_py_project/pokol.jpg",
+    "img": "pokol.jpg",
     "vendor_code": "1"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Облегчение участи",
     "author": "Н. Берберова",
     "price": 500,
-    "img": "emigration_py_project/obleghenie.jpg",
+    "img": "obleghenie.jpg",
     "vendor_code": "2"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Куски",
     "author": "Б. Поплавский",
     "price": 300,
-    "img": "emigration_py_project/kyski.jpg",
+    "img": "kyski.jpg",
     "vendor_code": "3"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Защитный цвет",
     "author": "Эльза Триоле",
     "price": 200,
-    "img": "emigration_py_project/cvet.jpeg",
+    "img": "cvet.jpeg",
     "vendor_code": "4"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Распад атома",
     "author": "Г. Иванов",
     "price": 500,
-    "img": "emigration_py_project/raspad.jpg",
+    "img": "raspad.jpg",
     "vendor_code": "5"
   },
   {
@@ -44,7 +44,7 @@
     "title": "Вечер у Клэр",
     "author": "Г. Газданов",
     "price": 400,
-    "img": "emigration_py_project/vecher.jpg",
+    "img": "vecher.jpg",
     "vendor_code": "6"
   },
   {
@@ -52,7 +52,7 @@
     "title": "Поля Елисейские",
     "author": "В. Яновский",
     "price": 600,
-    "img": "emigration_py_project/pol.jpg",
+    "img": "pol.jpg",
     "vendor_code": "7"
   },
   {
@@ -60,7 +60,7 @@
     "title": "Некрополь",
     "author": "В. Ходасевич",
     "price": 800,
-    "img": "emigration_py_project/nekr.jpeg",
+    "img": "nekr.jpeg",
     "vendor_code": "8"
   },
   {
@@ -68,7 +68,7 @@
     "title": "Курсив мой",
     "author": "Н. Берберова",
     "price": 900,
-    "img": "emigration_py_project/kurs.jpg",
+    "img": "kurs.jpg",
     "vendor_code": "9"
   },
   {
@@ -76,7 +76,7 @@
     "title": "Крысолов",
     "author": "М. Цветаева",
     "price": 300,
-    "img": "emigration_py_project/mice.jpg",
+    "img": "mice.jpg",
     "vendor_code": "10"
   },
   {
@@ -84,7 +84,7 @@
     "title": "Дар",
     "author": "В. Набоков",
     "price": 500,
-    "img": "emigration_py_project/dar.jpg",
+    "img": "dar.jpg",
     "vendor_code": "11"
   },
   {
@@ -92,7 +92,7 @@
     "title": "Ангел смерти",
     "author": "И. Одоевцева",
     "price": 300,
-    "img": "emigration_py_project/angel.jpg",
+    "img": "angel.jpg",
     "vendor_code": "12"
   }
 ]
